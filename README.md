@@ -2,8 +2,6 @@
 
 # Applied Data Science Capstone
 
----
-
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents:
 
