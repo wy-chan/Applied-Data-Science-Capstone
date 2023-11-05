@@ -3,7 +3,7 @@
 # Applied Data Science Capstone
 
 <!-- TABLE OF CONTENTS -->
-## Table of Contents:
+### Table of Contents:
 
 ### Week1
 - [Task1.1](https://github.com/wy-chan/Applied-Data-Science-Capstone/blob/main/Week1_1_Complete%20the%20Data%20Collection%20API%20Lab.ipynb) - Hands-on Lab: Complete the Data Collection API Lab
