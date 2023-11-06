@@ -16,13 +16,13 @@ Table of Contents:
 
 ### Week3
 - Task3.1 - [Launch Sites Locations Analysis with Folium]()
-- Task3.2 - []()
+- Task3.2 - [Build an Interactive Dashboard with Ploty Dash]()
   
 ### Week4
-- Task4.1 - []()
+- Task4.1 - [Complete the Machine Learning Prediction lab]()
   
 ### Week5
-- Task5.1 - []()
+- [Data Findings Report Presentation]()
   
 ---
 
