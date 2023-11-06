@@ -15,11 +15,15 @@ Table of Contents:
 - Task2.2 - [EDA with Visualization Lab](https://github.com/wy-chan/Applied-Data-Science-Capstone/blob/main/Week2_2_EDA%20with%20Visualization%20Lab.jupyterlite.ipynb)
 
 ### Week3
-
+- Task3.1 - [Launch Sites Locations Analysis with Folium]()
+- Task3.2 - []()
+  
 ### Week4
-
+- Task4.1 - []()
+  
 ### Week5
-
+- Task5.1 - []()
+  
 ---
 
 <p align="center"> - <a href='#top'>Back to Top</a> - </p>
