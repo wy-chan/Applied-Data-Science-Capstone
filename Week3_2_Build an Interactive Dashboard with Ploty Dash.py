@@ -30,7 +30,7 @@ app.layout = html.Div(children=[html.H1('SpaceX Launch Records Dashboard',
                                 # dcc.Dropdown(id='site-dropdown',...)
                                 dcc.Dropdown(id='site-dropdown',
                                             options=site_options,
-                                            value='All Sites',
+                                            value='All',
                                             placeholder="All Sites",
                                             searchable=True
                                 ),
@@ -56,21 +56,20 @@ app.layout = html.Div(children=[html.H1('SpaceX Launch Records Dashboard',
 @app.callback(Output(component_id='success-pie-chart', component_property='figure'),
               Input(component_id='site-dropdown', component_property='value'))
 def get_pie_chart(entered_site):
-    filtered_df = spacex_df
-    if entered_site == 'ALL':
-        fig = px.pie(spacex_df, values='class', 
+    filtered_df = spacex_df.groupby('Launch Site')['class'].mean().reset_index()
+    if entered_site == 'All':
+        fig = px.pie(filtered_df, values='class', 
         names='Launch Site', 
-        title='Total Success Launches by Site')
+        title='Total Success Launches by Site ')
         return fig
-    else:
+    else: 
         # return the outcomes piechart for a selected site
-        data_select = spacex_df[spacex_df['Launch Site'] == entered_site]
-
-        fig = px.pie(data_select, values='class', 
+        site_data = spacex_df[spacex_df['Launch Site'] == entered_site]
+        site_data = site_data.groupby(['Launch Site','class']).size().reset_index(name='class count')
+        fig = px.pie(site_data, values='class', 
         names='Launch Site', 
-        title='Total Success Launches by Site')
+        title='Total Success Launches of ' + entered_site)
         return fig
-
 # TASK 4:
 # Add a callback function for `site-dropdown` and `payload-slider` as inputs, `success-payload-scatter-chart` as output
 
