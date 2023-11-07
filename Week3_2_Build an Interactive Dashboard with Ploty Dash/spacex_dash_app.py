@@ -65,10 +65,10 @@ def get_pie_chart(entered_site):
     else: 
         # return the outcomes piechart for a selected site
         site_data = spacex_df[spacex_df['Launch Site'] == entered_site]
-        site_data = site_data.groupby(['Launch Site','class']).size().reset_index(name='class count')
+        site_data = site_data.groupby('count').reset_index()
         fig = px.pie(site_data, values='class', 
-        names='Launch Site', 
-        title='Total Success Launches of ' + entered_site)
+                names='class', 
+                title='Total Success Launches of ' + entered_site)
         return fig
 # TASK 4:
 # Add a callback function for `site-dropdown` and `payload-slider` as inputs, `success-payload-scatter-chart` as output
