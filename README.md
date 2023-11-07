@@ -16,7 +16,7 @@ Table of Contents:
 
 ### Week3
 - 3.1 - [Launch Sites Locations Analysis with Folium](https://github.com/wy-chan/Applied-Data-Science-Capstone/blob/main/Week3_1_Launch%20Sites%20Locations%20Analysis%20with%20Folium.jupyterlite.ipynb)
-- 3.2 - [Build an Interactive Dashboard with Ploty Dash]()
+- 3.2 - [Build an Interactive Dashboard with Ploty Dash](https://github.com/wy-chan/Applied-Data-Science-Capstone/tree/main/Week3_2_Build%20an%20Interactive%20Dashboard%20with%20Ploty%20Dash)
   
 ### Week4
 - 4 - [Complete the Machine Learning Prediction lab](https://github.com/wy-chan/Applied-Data-Science-Capstone/blob/main/Week_4_Complete%20the%20Machine%20Learning%20Prediction%20lab.jupyterlite.ipynb)
