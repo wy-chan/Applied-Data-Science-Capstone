@@ -6,23 +6,23 @@
 Table of Contents:
 
 ### Week1
-- Task1.1 - [Complete the Data Collection API Lab](https://github.com/wy-chan/Applied-Data-Science-Capstone/blob/main/Week1_1_Complete%20the%20Data%20Collection%20API%20Lab.ipynb)
-- Task1.2 - [Complete the Data Collection with Web Scraping lab](https://github.com/wy-chan/Applied-Data-Science-Capstone/blob/main/Week1_2_Complete%20the%20Data%20Collection%20with%20Web%20Scraping%20lab.ipynb)
-- Task1.3 - [Data Wrangling](https://github.com/wy-chan/Applied-Data-Science-Capstone/blob/main/Week1_3_Data%20Wrangling.ipynb)
+- 1.1 - [Complete the Data Collection API Lab](https://github.com/wy-chan/Applied-Data-Science-Capstone/blob/main/Week1_1_Complete%20the%20Data%20Collection%20API%20Lab.ipynb)
+- 1.2 - [Complete the Data Collection with Web Scraping lab](https://github.com/wy-chan/Applied-Data-Science-Capstone/blob/main/Week1_2_Complete%20the%20Data%20Collection%20with%20Web%20Scraping%20lab.ipynb)
+- 1.3 - [Data Wrangling](https://github.com/wy-chan/Applied-Data-Science-Capstone/blob/main/Week1_3_Data%20Wrangling.ipynb)
 
 ### Week2
-- Task2.1 - [Complete the EDA with SQL](https://github.com/wy-chan/Applied-Data-Science-Capstone/blob/main/Week2_1_Complete%20the%20EDA%20with%20SQL.ipynb)
-- Task2.2 - [EDA with Visualization Lab](https://github.com/wy-chan/Applied-Data-Science-Capstone/blob/main/Week2_2_EDA%20with%20Visualization%20Lab.jupyterlite.ipynb)
+- 2.1 - [Complete the EDA with SQL](https://github.com/wy-chan/Applied-Data-Science-Capstone/blob/main/Week2_1_Complete%20the%20EDA%20with%20SQL.ipynb)
+- 2.2 - [EDA with Visualization Lab](https://github.com/wy-chan/Applied-Data-Science-Capstone/blob/main/Week2_2_EDA%20with%20Visualization%20Lab.jupyterlite.ipynb)
 
 ### Week3
-- Task3.1 - [Launch Sites Locations Analysis with Folium]()
-- Task3.2 - [Build an Interactive Dashboard with Ploty Dash]()
+- 3.1 - [Launch Sites Locations Analysis with Folium](https://github.com/wy-chan/Applied-Data-Science-Capstone/blob/main/Week3_1_Launch%20Sites%20Locations%20Analysis%20with%20Folium.jupyterlite.ipynb)
+- 3.2 - [Build an Interactive Dashboard with Ploty Dash]()
   
 ### Week4
-- Task4.1 - [Complete the Machine Learning Prediction lab]()
+- 4 - [Complete the Machine Learning Prediction lab](https://github.com/wy-chan/Applied-Data-Science-Capstone/blob/main/Week_4_Complete%20the%20Machine%20Learning%20Prediction%20lab.jupyterlite.ipynb)
   
 ### Week5
-- [Data Findings Report Presentation]()
+- [Data Findings Report]()
   
 ---
 
