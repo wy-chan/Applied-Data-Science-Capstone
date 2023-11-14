@@ -1,3 +1,15 @@
+'''
+# Terminal:
+# Install python packages required to run the application.
+    python3.8 -m pip install pandas dash
+# Run the following wget command line in the terminal to download dataset as spacex_launch_dash.csv
+    wget "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/spacex_launch_dash.csv"  
+# Download a skeleton Dash app to be completed in this lab:
+    wget "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/labs/module_3/spacex_dash_app.py" 
+# Test the skeleton app by running the following command in the terminal:
+    python3.8 spacex_dash_app.py
+'''
+
 # Import required libraries
 import pandas as pd
 import dash
@@ -14,6 +26,7 @@ min_payload = spacex_df['Payload Mass (kg)'].min()
 # Create a dash application
 app = dash.Dash(__name__)
 
+# Site dropdown options
 site_options=[{'label': 'All Sites', 'value': 'All'},
                 {'label': 'CCAFS LC-40', 'value': 'CCAFS LC-40'},
                 {'label': 'CCAFS SLC-40', 'value': 'CCAFS SLC-40'},
